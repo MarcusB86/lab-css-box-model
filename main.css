@@ -1,23 +1,23 @@
 * {
-    border: 1px solid gold;
+    border: 1px white;
 }
 p {
     font-family: sans-serif;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: serif;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 h6 {
     text-align: center;
 }
 a {
     text-decoration: none;
-}
-a {
-    color: #4242ea
+    color: #4242ea;
 }
 ul {
     list-style: none;
+    display: inline-block;
+   
 }
 footer span {
     font-weight: 700;
@@ -31,4 +31,52 @@ footer span {
 .weather {
     width: 300px;
     border: 2px solid gray;
+}
+.breaking-news {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.breaking-news img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.click-bait article {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.below-the-fold article {
+    display: inline-block;
+}
+.below-the-fold img {
+    display: inline-block;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+}
+.below-the-fold div {
+    width: 500px;
+    /* margin-right: 50%; */
+}
+.click-bait {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.page__footer-links {
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.below-the-fold__content {
+    display: inline-block;
+}
+.page {
+    background-color: dimgrey;
 }
